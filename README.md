@@ -12,7 +12,7 @@ Ensure that you have the necessary development libraries installed for Xlib and 
 
 Clone the repository to your local machine:
 
-git clone <repository_url>
+git clone <https://github.com/vroby65/mouse_mover.git>
 Compile the mouse_mover program using the provided Makefile:
 
 cd mouse_mover

@@ -15,7 +15,7 @@ The `mouse_mover` program is a command-line tool for Linux that prevents the scr
 
 2. Clone the repository to your local machine:
 
-git clone <rhttps://github.com/vroby65/mouse_mover.gitepository_url>
+git clone <https://github.com/vroby65/mouse_mover.git>
 
 
 3. Compile the `mouse_mover` program using the provided script build.sh:

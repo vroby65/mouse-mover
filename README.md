@@ -1,6 +1,6 @@
-# mouse_mover
+# mouse-mover
 
-The `mouse_mover` program is a command-line tool for Linux that prevents the screen saver from activating by continuously moving the mouse cursor at fixed intervals. It utilizes the Xlib and XTest libraries to interact with the X server and simulate mouse motion events.
+The `mouse-mover` program is a command-line tool for Linux that prevents the screen saver from activating by continuously moving the mouse cursor at fixed intervals. It utilizes the Xlib and XTest libraries to interact with the X server and simulate mouse motion events.
 
 ## Features
 
@@ -15,21 +15,21 @@ The `mouse_mover` program is a command-line tool for Linux that prevents the scr
 
 2. Clone the repository to your local machine:
 
-git clone <https://github.com/vroby65/mouse_mover.git>
+git clone <https://github.com/vroby65/mouse-mover.git>
 
 
-3. Compile the `mouse_mover` program using the provided script build.sh:
+3. Compile the `mouse-mover` program using the provided script build.sh:
 
-cd mouse_mover
+cd mouse-mover
 
 ./build.sh
 
 
 ## Usage
 
-To start the `mouse_mover` program, execute the following command in your terminal:
+To start the `mouse-mover` program, execute the following command in your terminal:
 
-./mouse_mover
+./mouse-mover
 
 
 The program will start moving the mouse cursor every 10 seconds by default. You can modify the interval by editing the source code and recompiling the program.

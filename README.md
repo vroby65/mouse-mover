@@ -15,26 +15,26 @@ The `mouse-mover` program is a command-line tool for Linux that prevents the scr
 
 2. Clone the repository to your local machine:
 
-git clone <https://github.com/vroby65/mouse-mover.git>
+`git clone <https://github.com/vroby65/mouse-mover.git>`
 
 
 3. Compile the `mouse-mover` program using the provided script makefile:
 
-cd mouse-mover
+`cd mouse-mover`
 
-make
+`make`
 
 
 4. Install the `mouse_mover` program:
 
-sudo make install
+`sudo make install`
 
 
 ## Usage
 
 To start the `mouse-mover` program, execute the following command in your terminal:
 
-./mouse-mover
+`mouse-mover`
 
 
 The program will start moving the mouse cursor every 10 seconds by default. You can modify the interval by editing the source code and recompiling the program.
@@ -46,7 +46,7 @@ To stop the program, press `Ctrl+C` in the terminal where it is running.
 
 To uninstall the `mouse_mover` program, execute the following command in your terminal:
 
-sudo make uninstall
+`sudo make uninstall`
 
 
 ## License

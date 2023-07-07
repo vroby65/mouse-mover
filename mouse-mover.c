@@ -6,7 +6,6 @@
 int main()
 {
     Display *display;
-    Window root_window;
 
     display = XOpenDisplay(NULL);
     if (display == NULL)
@@ -14,8 +13,6 @@ int main()
         fprintf(stderr, "Error opening the display\n");
         return 1;
     }
-
-    root_window = XRootWindow(display, DefaultScreen(display));
 
     while (1)
     {
